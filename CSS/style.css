@@ -24,6 +24,7 @@ h1{
    
 }
 
+/* May use this style on other pages and classes. 
 .heavy{
     width: 36%;
     height: auto;
@@ -33,6 +34,7 @@ h1{
     
 
 }
+*/
 
 .navigation{
     background-color: #2b2b2e;
@@ -71,10 +73,23 @@ a, a:visited {
     margin-right: 2px;
 }
 
+.brand-statement{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 33%;
+    min-height: auto;
+    background-color: darkgoldenrod;
+    letter-spacing: -5px;
+   
+
+}
+
 
 
 .main-text{
-    margin-top: 25%;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 25%;
     float: left;
     width: 30%;
     padding-left: 50px;
@@ -84,6 +99,13 @@ a, a:visited {
     font-family: 'Rufina', serif;
    
     
+}
+
+.joining-box{
+    width: 25px;
+    height: 75px;
+    background-color: darkgoldenrod;
+    margin-left: 25%;
 }
 
 .inside-text{
@@ -97,6 +119,7 @@ a, a:visited {
    
 }
 
+/* Remeber to change this class name */
 .digital-landscape{
     color: azure;
 }
@@ -112,6 +135,7 @@ a, a:visited {
 
 footer{
     float:left;
+    position: absolute;
     height: 200px;
     width: 100%;
     padding: 25px 100px;
