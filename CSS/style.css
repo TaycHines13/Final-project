@@ -51,9 +51,13 @@ h2,h3{
 }
 
 .client-cta{
-    float: right;
-    clear: none;
-    margin-left: 20px;
+    float: left;
+    clear: both;
+    margin-top: 25px;
+    margin-right: 20px;
+    height: 250px;
+    width: 350px;
+    position: inherit;
     background-color: #2b2b2e;
     color: darkgoldenrod;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -61,6 +65,9 @@ h2,h3{
 
 
 }
+
+
+
 
 /* May use this style on other pages and classes. 
 .heavy{
@@ -218,9 +225,9 @@ p{
 
 
 .vid{
-    position: absolute;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 17.5%;
+    
     
 }
 
@@ -235,8 +242,11 @@ p{
 
 .flash-work{
     float: right;
-    width: 200px;
-    height: 350px;
+    clear: none
+    display: inline;
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
     margin-right: 30%;
     padding: 15px;
     line-height: 25px;
@@ -278,15 +288,6 @@ p{
 }
 
  
-
-.test{
-    float: left;
-    clear: both;
-    position: inherit;
-    background-color: aqua;
-    margin-top: 500px;
-
-}
 
 .subject-text{
     text-decoration: underline;
