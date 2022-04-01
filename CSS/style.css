@@ -21,7 +21,7 @@ body{
     width: 100px;
     height: 100px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 0px;
     border: #2b2b2e;
     border-width: 5px;
@@ -35,7 +35,7 @@ h2{
     margin: top 25px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 70px;
-    color: rgb(196, 186, 162);
+    color: #2b2b2e;
     
    
 }
@@ -60,6 +60,7 @@ h2{
     padding: 10px;
     display: inline-block;
     
+    
 }
 
 
@@ -82,12 +83,12 @@ a, a:visited {
 }
 
 .line{
-   
+    
     float: right;
     height: 2px;
-    width: 90%;
+    width: 70%;
     background-color: darkgoldenrod;
-    margin-top: 0px;
+    margin-top: 57px;
     margin-left: 2px;
     margin-right: 0px;
 }
@@ -95,12 +96,24 @@ a, a:visited {
 .brand-statement{
     
     margin-top: 0px;
-    margin-left: 15px;
-    width: 33%;
+    margin-left: 25px;
+    padding-left: 10px;
+    width: 25%;
     height: 25%;
     background-color: darkgoldenrod;
     letter-spacing: -5px;
+    border: darkgoldenrod;
+    border-left: 25px;
+    line-height: 60px;
+    
    
+
+}
+
+.consulting-text{
+    letter-spacing: .75px;
+    
+    
 
 }
 
@@ -112,9 +125,10 @@ a, a:visited {
     margin-left: 25%;
     float: left;
     width: 30%;
+    padding-top: 0px;
     padding-left: 50px;
     background-color: darkgoldenrod;
-    height: 20px;
+    height: 25px;
     font-size: 35pt;
     font-family: 'Rufina', serif;
    
@@ -144,6 +158,38 @@ a, a:visited {
     color: azure;
 }
 
+.mission{
+    position: absolute;
+    float: left;
+    clear: both;
+    margin-top: 225px;
+    margin-left: 60px;
+    padding: 15px 20px;
+    text-align: center;
+    height: 225px;
+    width: 350px;
+    background-color: azure;
+    border: darkgoldenrod;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 3px;
+    
+    
+    
+}
+
+p{
+    color: #2b2b2e;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+
+}
+
+.branded-text{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .vid{
     margin-top: 10%;
     margin-left: 20%;
@@ -155,7 +201,7 @@ a, a:visited {
 
 footer{
     float:left;
-    position: absolute;
+   /* position: absolute; */
     height: 200px;
     width: 100%;
     padding: 25px 100px;
